@@ -1,0 +1,19 @@
+.form {
+   display: grid;
+   gap: 1rem;
+}
+.form__line {
+
+}
+.form__label {
+   display: block;
+   font-weight: 500;
+}
+.form__input {
+   padding: .3125rem .625rem;
+}
+.form__actions {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}

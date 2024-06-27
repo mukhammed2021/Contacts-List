@@ -1,0 +1,54 @@
+.contact-list__item {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   background-color: var(--color-zinc-200);
+   padding: .625rem 1.25rem;
+   border-radius: 1rem;
+}
+
+.contact-list__item:nth-child(2n + 1) {
+   background-color: #fff;
+}
+
+.contact-list__avatar {
+   border-radius: 50%;
+   width: 3rem;
+   height: 3rem;
+}
+
+.contact-list__content {
+   flex: 1 1 auto;
+}
+
+.contact-list__name {
+   font-weight: 500;
+}
+
+.contact-list__name:not(:last-child) {
+   margin-bottom: 0.2rem;
+}
+
+.contact-list__phone {}
+
+.contact-list__configure {
+   position: relative;
+}
+
+.contact-list__button {
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+   padding: 0;
+   svg[fill] {
+      fill: currentColor;
+   }
+}
+
+.contact-list__actions {
+   position: absolute;
+   right: 40px;
+   top: 0;
+   background-color: var(--color-zinc-400);
+   border-radius: .625rem;
+}

@@ -1,0 +1,4 @@
+.contact-list__list {
+   display: grid;
+   gap: 1rem;
+}

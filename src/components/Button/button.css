@@ -1,0 +1,22 @@
+.button {
+   cursor: pointer;
+   display: inline-flex;
+   align-items: center;
+   background-color: transparent;
+   border: none;
+   justify-content: center;
+   justify-self: start;
+   width: 6.25rem;
+   padding-block: 0.5rem;
+   font-weight: 500;
+   color: var(--color-zinc-50);
+   border-radius: .625rem;
+}
+
+.button--add {
+   background-color: var(--color-green-600) !important;
+}
+
+.button--cancel {
+   background-color: var(--color-red-600);
+}
